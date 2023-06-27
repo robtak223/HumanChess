@@ -1,3 +1,4 @@
+# Custom error classes for the input data
 
 class CustomException(Exception):
     """
@@ -12,4 +13,6 @@ class InputException(CustomException):
     """
     def __init__(self, message):
         self.message = message
+        print(message)
         super().__init__(self.message)
+
