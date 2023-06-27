@@ -1,1 +1,3 @@
 # HumanChess
+
+Developed a neural-network human-like chess engine in tensorflow using a network structure similar to Alpha-Zero. Thee "humanness" of the engine was assessed by it's ability to predict human moves after being trained on millions of games played between players of 1400-1600 ELO. The trained model was better at predicting human moves than intermediate Stockfish engines, but worse than the strongest engines. I then further trained a copy of the model on my own chess moves and tested the model on my own moves, resulting in a significant increase in accuracy. The results are promising, albeit limited by availability of data and computing power.
